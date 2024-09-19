@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".InventoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal">
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bar_shadow"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:drawablePadding="16dp"
+            android:hint="Search"
+            android:padding="16dp"
+            android:inputType="text"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Rectangle Box -->
+        <RelativeLayout
+            android:id="@+id/rectangle_box"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:background="@drawable/rectangle_box_shadow"
+            android:layout_gravity="center_horizontal">
+
+            <!-- Left Text -->
+            <TextView
+                android:id="@+id/left_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Out of Stock"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <!-- Center Text -->
+            <TextView
+                android:id="@+id/center_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:text="Low Stock"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <!-- Right Text -->
+            <TextView
+                android:id="@+id/right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="20dp"
+                android:text="High Stock"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Add other UI elements here -->
+
+</RelativeLayout>
