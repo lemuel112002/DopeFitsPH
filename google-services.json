@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632215062325",
+    "project_id": "dopefitsph-admin",
+    "storage_bucket": "dopefitsph-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632215062325:android:7eac42937189381e666e7c",
+        "android_client_info": {
+          "package_name": "com.example.dopefitsph_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDtqIZaAFAGL1zFx2MSzr1jhswEHTyFlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
